@@ -244,6 +244,10 @@ img {
 #reported{
   display: none;
 }
+.bonus{
+  margin: 100px;
+  /* size: 2rem; */
+}
 
 @media only screen and (max-width: 992px) {
   #posts {
