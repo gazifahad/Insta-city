@@ -4,6 +4,7 @@ const likedPostsId = [];
 const reportedPostsId = [];
 
 const getLikedPosts = () => {
+    
     return posts.filter((post) => likedPostsId.includes(post.id));
 };
 
@@ -16,7 +17,8 @@ const isLiked = (id) => {
 };
 
 const addToLiked = (id) => {
-    likedPostsId.plus(id); 
+  // first bug plus in the place of push 
+    likedPostsId.push(id); 
     showPosts(posts);
 };
 
