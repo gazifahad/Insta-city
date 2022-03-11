@@ -19,7 +19,8 @@ const isLiked = (id) => {
 const addToLiked = (id) => {
   // first bug plus in the place of push 
     likedPostsId.push(id); 
-    showPosts(posts);
+    // showPosts(posts);
+    reportPost(posts);
 };
 
 const reportPost = (id) => {
